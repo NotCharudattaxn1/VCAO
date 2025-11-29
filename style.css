@@ -1,0 +1,278 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #3a0ca3, #f3f3f6);
+  color: #f5f5f5;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #3f37c9, #eff1f3);
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #90e0ef;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 60px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+h2 {
+  color: #90e0ef;
+  margin-bottom: 10px;
+}
+
+/* PCCOER Section */
+.pcooer-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.pcooer-logo {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  background: white;
+  padding: 5px;
+}
+
+.pcooer-info {
+  flex: 1;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #7209b7, #4361ee);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #560bad, #3a0ca3);
+  transform: scale(1.05);
+}
+
+/* Images */
+.pcooer-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+  transition: transform 0.3s ease;
+}
+
+.pcooer-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: linear-gradient(135deg, #3f37c9, #4895ef);
+  color: white;
+  padding: 20px;
+  font-weight: 500;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.tab-button.active {
+  background: #7209b7;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.pdf-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #4361ee, #7209b7);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.pdf-button:hover {
+  background: linear-gradient(135deg, #3a0ca3, #560bad);
+  transform: scale(1.05);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #00bcd4;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #008c9e;
+}
+
+/* Header styling */
+header {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #222;
+}
+
+/* Header title */
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00b4d8; /* Light blue on hover */
+}
+
+nav a.active {
+  color: #90e0ef; /* Highlight active page */
+  text-decoration: underline;
+}
+
+.image-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.image-container img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.02);
+}
+
+.caption {
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
