@@ -229,3 +229,63 @@ body {
 .social-links a:hover {
   color: #ffdd57; /* lighter gold on hover */
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.social-links {
+  margin-top: 12px;
+}
+
+.social-links a {
+  margin-right: 12px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077ff;
+}
+
