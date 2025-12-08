@@ -303,21 +303,23 @@ header nav ul li a:hover {
   color: #ffd700;             /* golden text on hover */
 }
 
-/* Study Materials Button */
-.study-btn {
-  background-color: #ffd700;  /* golden button */
-  color: #1e1e1e;             /* dark text */
-  padding: 8px 18px;
-  border-radius: 6px;
-  font-weight: bold;
+.vtour-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #1a73e8;  /* blue background */
+  color: white;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: 0.3s;
 }
 
-.study-btn:hover {
-  background-color: #ffec70;  /* lighter gold on hover */
-  color: #000000;
+.vtour-btn:hover {
+  background: #0e56b3;  /* darker blue on hover */
 }
+
+
 
 
 
