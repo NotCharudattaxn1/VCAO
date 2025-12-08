@@ -422,6 +422,18 @@ header nav ul li a:hover {
   color: #ffd700;             /* golden text on hover */
 }
 
+.section-heading {
+  display: inline-block;       /* background wraps around text */
+  background-color: #000000;   /* black fill */
+  color: #ffffff;              /* white text */
+  padding: 10px 20px;          /* space around text */
+  border-radius: 8px;          /* rounded corners */
+  font-size: 28px;
+  margin: 20px 0;
+  text-align: center;
+  border: 3px solid #ffd700;   /* golden border */
+}
+
 
 
 
