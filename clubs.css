@@ -355,4 +355,80 @@ body {
   color: #ffdd57; /* hover color for icons */
 }
 
+/* Body / page background */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;  /* original website background */
+}
+
+/* Section titles */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Container for club/event cards */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive columns */
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/* Card style */
+.card {
+  background: #1e293b;   /* dark card to match site theme */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Card headings */
+.card h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+/* Card paragraphs */
+.card p {
+  font-size: 15px;
+  color: #e2e8f0;  /* light text for readability */
+}
+
+/* Social links section */
+.social-links {
+  margin-top: 12px;
+}
+
+/* Social icon styles */
+.social-links a {
+  margin-right: 12px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #facc15;  /* golden icons to match theme */
+  transition: color 0.3s;
+}
+
+/* Social icon hover */
+.social-links a:hover {
+  color: #ffdd57; /* lighter gold on hover */
+}
+
 
