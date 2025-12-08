@@ -446,7 +446,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f0f2f5; /* light gray background for the whole page */
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* subtle gradient */
 }
 
 .section-title {
@@ -507,12 +507,9 @@ body {
 .social-links a:hover {
   color: #ffdd57; /* lighter gold on hover */
 }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f5f5f5; /* original light gray / neutral background */
-}
+
+
+
 
 
 
