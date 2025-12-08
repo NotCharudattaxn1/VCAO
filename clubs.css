@@ -317,4 +317,83 @@ body {
   color: #ffdd57; /* lighter gold on hover */
 }
 
+/* Body / page background with gradient */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #6a0dad, #9c27b0);  /* purple gradient from dark to light */
+  color: #ffffff;  /* default text color */
+}
+
+/* Section titles */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffd700;  /* golden titles for contrast */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* Container for club/event cards */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/* Card style — slightly lighter purple */
+.card {
+  background: rgba(123, 31, 162, 0.9);   /* semi-transparent purple to let gradient show through slightly */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+}
+
+/* Card headings */
+.card h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #ffe082;  /* golden headings */
+}
+
+/* Card paragraphs */
+.card p {
+  font-size: 15px;
+  color: #e1bee7;  /* light purple text */
+}
+
+/* Social links section */
+.social-links {
+  margin-top: 12px;
+}
+
+/* Social icon styles */
+.social-links a {
+  margin-right: 12px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ffd700; /* golden icons */
+  transition: color 0.3s;
+}
+
+/* Social icon hover */
+.social-links a:hover {
+  color: #fff176; /* lighter gold on hover */
+}
+
 
