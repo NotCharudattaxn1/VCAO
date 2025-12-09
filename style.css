@@ -319,6 +319,22 @@ header nav ul li a:hover {
   background: #0e56b3;  /* darker blue on hover */
 }
 
+.section-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #1a73e8;            /* Blue background */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 10px 10px 0 0;          /* Space between buttons */
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.section-btn:hover {
+  background: #0e56b3;            /* Darker blue */
+}
 
 
 
