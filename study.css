@@ -69,6 +69,25 @@ nav a {
   text-decoration: underline;
 }
 
+.study-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #6a0dad;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+.study-btn:hover {
+    background: #540a99;
+    transform: scale(1.05);
+}
+
+
 .material-card a:hover {
   color: #ffd700;
 }
